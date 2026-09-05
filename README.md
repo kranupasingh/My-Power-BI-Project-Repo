@@ -65,20 +65,18 @@ The transformation stage helped ensure that the data was structured consistently
 **🗄️<p align="center">Data Modelling and Semantic Layer**
 
 Relationships between tables were created to support effective analysis within Power BI.
+- Built star-schema with fact and dimension tables
+- Managed relationships (one-to-many, cross filter direction)
+- Configured semantic models for efficient reporting
+- Created hierarchies (e.g. Year - Month - Day)
+- Set up model properties such as formatting, summarisation, and data categories
 
 <img width="841" height="447" alt="image" src="https://github.com/user-attachments/assets/0eb7a9db-164f-4f13-a7e7-9ac912206abe" />
 
+This diagram show the star-schema data model used in Power BI, with clearly defined fact and dimension tables. It highlights how relationships are created between tables. A well-structured data model helped ensure that filters, calculations and visualisations interacted correctly throughout the report.
 
-Modelling activities included:
-🔗 Creating relationships between tables
-🗂️ Structuring data for reporting
-🔍 Reviewing how tables interacted with each other
-📊 Preparing fields for visualisation
-🧮 Creating a model that supported DAX calculations
-
-A well-structured data model helped ensure that filters, calculations and visualisations interacted correctly throughout the report.
-
-🧮 DAX Calculations
+---
+**🧮 <p align="center">DAX Calculations**
 
 DAX (Data Analysis Expressions) was used to create calculated columns and measures to support the analysis.
 
