@@ -184,8 +184,3 @@ As I continue developing my data analytics skills, I plan to:
 
 ☁️ Expand my knowledge of Power BI Service and Azure
 
-🐍 Apply Python to real-world data analysis
-
-🗄️ Develop more advanced SQL skills
-
-💼 Continue building a portfolio of business-focused analytics projects
