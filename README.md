@@ -1,4 +1,4 @@
-#📊 Power BI Retail & Sales Analytics Project
+# 📊 Power BI Retail & Sales Analytics Project
 
 ---
 <p align="center">
