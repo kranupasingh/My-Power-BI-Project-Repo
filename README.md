@@ -162,6 +162,7 @@ Publishing the project also provided an opportunity to consider how dashboards c
 
 </p>
 
+---
 📚 Learning Outcomes
 
 Through this project, I gained hands-on experience with:
