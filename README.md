@@ -4,13 +4,13 @@
 <p align="center"> <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" /> <img src="https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge&logo=microsoft&logoColor=white" alt="Power Query" /> <img src="https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="DAX" /> <img src="https://img.shields.io/badge/Data%20Analytics-5A67D8?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Data Analytics" />
 
 ---
-** <p align="center">📖 Project Overview**
+**<p align="center">📖 Project Overview**
 
 This project was completed as part of my Level 3 Data Analytics Bootcamp and focuses on using Microsoft Power BI to demonstrate the end-to-end data analytics process, from data transformation and modelling through to analysis, visualisation and data storytelling.
 The aim was to create dashboards that highlight sales performance, profitability, trends and regional insights, while allowing users to interact with the data and explore different areas of the business.
 
 ---
-** <p align="center">🎯Project Objectives**
+**<p align="center">🎯Project Objectives**
 
 The key objectives of this project were to:
 
@@ -39,7 +39,7 @@ The key objectives of this project were to:
 -🔄 Data Analytics Process
 
 ---
-## <p align="center">Core Skills Demonstrated
+<p align="center">##Core Skills Demonstrated
 
 **🧹 Data Transformation & Cleaning (Power Query)**
 
