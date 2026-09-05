@@ -52,9 +52,9 @@ Activities included:
 - Reviewing data quality
 - Converted data types and enforced schema consistency
 - Renaming fields where required
-- Applied transformations such as:
-    -- Group by
-
+- Applied transformations such as
+    + Group by
+    + 
 The transformation stage helped ensure that the data was structured consistently and ready for modelling and visualisation.
 
 🗄️ Data Modelling
