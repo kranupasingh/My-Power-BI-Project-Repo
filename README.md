@@ -196,18 +196,11 @@ Publishing the project also provided an opportunity to consider how dashboards c
 
 </p>
 
-🧠 Skills Demonstrated
-
-This project allowed me to develop practical experience in:
-
-<table> <thead> <tr> <th>Area</th> <th>Skills</th> </tr> </thead> <tbody> <tr> <td>🧹 <strong>Data Preparation</strong></td> <td>Data cleaning, transformation and filtering</td> </tr> <tr> <td>🗄️ <strong>Data Modelling</strong></td> <td>Relationships, tables and structured data</td> </tr> <tr> <td>🧮 <strong>DAX</strong></td> <td>Measures, calculated columns and business metrics</td> </tr> <tr> <td>📊 <strong>Visualisation</strong></td> <td>Charts, KPIs, maps and interactive visuals</td> </tr> <tr> <td>🎛️ <strong>Reporting</strong></td> <td>Slicers, filters and interactive dashboards</td> </tr> <tr> <td>📖 <strong>Data Storytelling</strong></td> <td>Communicating trends, patterns and insights</td> </tr> <tr> <td>💼 <strong>Business Analysis</strong></td> <td>Using data to support informed decision-making</td> </tr> </tbody> </table>
-
 📚 Learning Outcomes
 
 Through this project, I gained hands-on experience with:
 
-💻 Power BI Desktop
-☁️ Power BI Service
+💻 Power BI Desktop |☁️ Power BI Service |
 🧹 Power Query
 🧮 DAX
 🗄️ Data modelling
@@ -218,29 +211,9 @@ Through this project, I gained hands-on experience with:
 
 The project strengthened my understanding of how technical data skills can be combined with effective visual communication to make data more accessible and impactful.
 
-🎓 Level 3 Data Analytics Bootcamp
 
-This project forms part of my Level 3 Data Analytics Bootcamp, where I have been developing practical skills across a range of data technologies.
 
-<p align="center">
-
-<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
-
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" />
-
-<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel" />
-
-<img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Microsoft Azure" />
-
-</p>
-
-The bootcamp has allowed me to refresh and strengthen my data analysis foundation while developing practical experience with modern data tools and techniques.
-
-🌱 What's Next?
+**<p align="center">🌱 What's Next?**
 
 As I continue developing my data analytics skills, I plan to:
 
@@ -253,5 +226,7 @@ As I continue developing my data analytics skills, I plan to:
 ☁️ Expand my knowledge of Power BI Service and Azure
 
 🐍 Apply Python to real-world data analysis
+
 🗄️ Develop more advanced SQL skills
+
 💼 Continue building a portfolio of business-focused analytics projects
