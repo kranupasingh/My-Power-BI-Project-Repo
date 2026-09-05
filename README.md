@@ -16,39 +16,44 @@ The aim was to create dashboards that highlight sales performance, profitability
 The key objectives of this project were to:
 
 -🧹 Clean and transform raw retail and sales data
+
 -🔄 Prepare data for analysis using Power Query
+
 -🗄️ Create relationships between tables
+
 -🧮 Develop calculated columns and DAX measures
+
 -📊 Analyse sales and profitability
+
 -📈 Identify trends and patterns over time
+
 -🌍 Compare regional performance
+
 -🛍️ Analyse product and category performance
+
 -🎛️ Create interactive reports and dashboards
+
 -💡 Communicate findings through data storytelling
+
 -🚀 Demonstrate how data can support business decision-making
+
 -🔄 Data Analytics Process
 
-The project followed a structured analytics workflow:
+---
+## <p align="center">Core Skills Demonstrated
 
-<p align="center">
-
-<strong> Raw Data 🗃️ → Data Cleaning 🧹 → Data Modelling 🗄️ → DAX Calculations 🧮 → Visualisation 📊 → Insights 💡 → Decision Making 🚀 </strong>
-
-</p>
-
-🧹 Data Transformation & Cleaning
+**🧹 Data Transformation & Cleaning (Power Query)**
 
 Power Query was used to import, clean and prepare the datasets for analysis.
 
 Activities included:
-📥 Importing raw datasets
-🧹 Cleaning and preparing the data
-🔍 Reviewing data quality
-🔄 Transforming data into an analysis-ready format
-🏷️ Renaming fields where required
-🎛️ Applying filters
-🔢 Managing data types
-🔗 Preparing relationships between tables
+- Importing raw datasets
+- Cleaning and preparing the data (remove errors, duplicates and null values)
+- Reviewing data quality
+- Converted data types and enforced schema consistency
+- Renaming fields where required
+- Applied transformations such as:
+    -- Group by
 
 The transformation stage helped ensure that the data was structured consistently and ready for modelling and visualisation.
 
