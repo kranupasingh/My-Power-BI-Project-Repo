@@ -5,34 +5,28 @@
 
 <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" /> <img src="https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge&logo=microsoft&logoColor=white" alt="Power Query" /> <img src="https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="DAX" /> <img src="https://img.shields.io/badge/Data%20Analytics-5A67D8?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Data Analytics" />
 
-</p>
+--
+**📖 <p align="center"> Project Overview**
 
-<p align="center"> <strong>Transforming retail and sales data into meaningful business insights 📈</strong> </p>
-
-📖 Project Overview
-
-This project was completed as part of my Level 3 Data Analytics Bootcamp and focuses on using Microsoft Power BI to transform raw retail and sales data into interactive and insightful reports.
-
-The project demonstrates the end-to-end data analytics process, from data transformation and modelling through to analysis, visualisation and data storytelling.
-
+This project was completed as part of my Level 3 Data Analytics Bootcamp and focuses on using Microsoft Power BI to demonstrate the end-to-end data analytics process, from data transformation and modelling through to analysis, visualisation and data storytelling.
 The aim was to create dashboards that highlight sales performance, profitability, trends and regional insights, while allowing users to interact with the data and explore different areas of the business.
 
-🎯 Project Objectives
+**🎯 <p align="center">Project Objectives**
 
 The key objectives of this project were to:
 
-🧹 Clean and transform raw retail and sales data
-🔄 Prepare data for analysis using Power Query
-🗄️ Create relationships between tables
-🧮 Develop calculated columns and DAX measures
-📊 Analyse sales and profitability
-📈 Identify trends and patterns over time
-🌍 Compare regional performance
-🛍️ Analyse product and category performance
-🎛️ Create interactive reports and dashboards
-💡 Communicate findings through data storytelling
-🚀 Demonstrate how data can support business decision-making
-🔄 Data Analytics Process
+-🧹 Clean and transform raw retail and sales data
+-🔄 Prepare data for analysis using Power Query
+-🗄️ Create relationships between tables
+-🧮 Develop calculated columns and DAX measures
+-📊 Analyse sales and profitability
+-📈 Identify trends and patterns over time
+-🌍 Compare regional performance
+-🛍️ Analyse product and category performance
+-🎛️ Create interactive reports and dashboards
+-💡 Communicate findings through data storytelling
+-🚀 Demonstrate how data can support business decision-making
+-🔄 Data Analytics Process
 
 The project followed a structured analytics workflow:
 
