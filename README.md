@@ -39,8 +39,8 @@ The key objectives of this project were to:
 -🔄 Data Analytics Process
 
 ---
-<p align="center">##Core Skills Demonstrated
-
+**<p align="center"> Core Skills Demonstrated**
+---
 **🧹 Data Transformation & Cleaning (Power Query)**
 
 Power Query was used to import, clean and prepare the datasets for analysis.
