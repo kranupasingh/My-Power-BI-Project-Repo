@@ -54,10 +54,15 @@ Activities included:
 - Renaming fields where required
 - Applied transformations such as
     + Group by
-    + 
-The transformation stage helped ensure that the data was structured consistently and ready for modelling and visualisation.
+    + Replace values
+    + Conditional columns
+    + Parameter creation
+    + Query referencing
+      
+The transformation stage helped ensure that the data was structured consistently and ready for modelling, analysing and visualisation.
 
-🗄️ Data Modelling
+---
+**🗄️<p align="center">Data Modelling and Semantic Layer**
 
 Relationships between tables were created to support effective analysis within Power BI.
 
