@@ -66,6 +66,9 @@ The transformation stage helped ensure that the data was structured consistently
 
 Relationships between tables were created to support effective analysis within Power BI.
 
+<img width="841" height="447" alt="image" src="https://github.com/user-attachments/assets/0eb7a9db-164f-4f13-a7e7-9ac912206abe" />
+
+
 Modelling activities included:
 🔗 Creating relationships between tables
 🗂️ Structuring data for reporting
