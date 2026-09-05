@@ -245,9 +245,13 @@ The bootcamp has allowed me to refresh and strengthen my data analysis foundatio
 As I continue developing my data analytics skills, I plan to:
 
 📊 Build more advanced Power BI dashboards
+
 🧮 Develop more complex DAX measures
+
 🗄️ Strengthen data modelling skills
+
 ☁️ Expand my knowledge of Power BI Service and Azure
+
 🐍 Apply Python to real-world data analysis
 🗄️ Develop more advanced SQL skills
 💼 Continue building a portfolio of business-focused analytics projects
