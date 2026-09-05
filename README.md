@@ -1,17 +1,18 @@
-📊 **Power BI Retail & Sales Analytics Project**
+#📊 Power BI Retail & Sales Analytics Project
 
 ---
 <p align="center">
 
 <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" /> <img src="https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge&logo=microsoft&logoColor=white" alt="Power Query" /> <img src="https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="DAX" /> <img src="https://img.shields.io/badge/Data%20Analytics-5A67D8?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Data Analytics" />
 
---
-**📖 <p align="center"> Project Overview**
+---
+** <p align="center">📖 Project Overview**
 
 This project was completed as part of my Level 3 Data Analytics Bootcamp and focuses on using Microsoft Power BI to demonstrate the end-to-end data analytics process, from data transformation and modelling through to analysis, visualisation and data storytelling.
 The aim was to create dashboards that highlight sales performance, profitability, trends and regional insights, while allowing users to interact with the data and explore different areas of the business.
 
-**🎯 <p align="center">Project Objectives**
+---
+** <p align="center">🎯Project Objectives**
 
 The key objectives of this project were to:
 
@@ -62,7 +63,7 @@ Activities included:
 The transformation stage helped ensure that the data was structured consistently and ready for modelling, analysing and visualisation.
 
 ---
-**🗄️<p align="center">Data Modelling and Semantic Layer**
+**<p align="center">🗄️Data Modelling and Semantic Layer**
 
 Relationships between tables were created to support effective analysis within Power BI.
 - Built star-schema with fact and dimension tables
@@ -76,113 +77,80 @@ Relationships between tables were created to support effective analysis within P
 This diagram show the star-schema data model used in Power BI, with clearly defined fact and dimension tables. It highlights how relationships are created between tables. A well-structured data model helped ensure that filters, calculations and visualisations interacted correctly throughout the report.
 
 ---
-**🧮 <p align="center">DAX Calculations**
+**<p align="center">🧮DAX Calculations**
 
 DAX (Data Analysis Expressions) was used to create calculated columns and measures to support the analysis.
 
 Examples included:
 
 💰 Profit margins
+
 📈 Year-over-year growth
+
 📊 Cumulative sales
+
 🔢 Key performance metrics
 
-These calculations allowed the raw data to be transformed into meaningful business measures that could be used throughout the dashboards.
 
-📊 Data Visualisation
+These calculations allowed the raw data to be transformed into meaningful business measures that could be used throughout the dashboards
+
+**DAX Measures for Regional Sales Percentages**
+
+These DAX measures calculate sales percentages at different geographic levels: Region, Country, and Group. They use DIVIDE(), CALCULATE(), and REMOVEFILTERS() to control context, and ISINSCOPE() to ensure correct behaviour inside hierarchical visuals such as matrices.
+
+<img width="940" height="389" alt="image" src="https://github.com/user-attachments/assets/93b979a2-c117-43c6-b8e9-9b85bf2b888f" />
+
+1. Sales % All Region Percentage of total sales across all regions, ignoring the Region filter.
+Sales % All Region = DIVIDE( SUM(Sales[Sales]), CALCULATE( SUM(Sales[Sales]), REMOVEFILTERS(Region) ) )
+2. Sales % Country Percentage of total sales for the country, ignoring the Region level. With ISINSCOPE() for correct matrix behaviour:
+Sales % Country = IF( ISINSCOPE(Region[Region]), DIVIDE( SUM(Sales[Sales]), CALCULATE( SUM(Sales[Sales]), REMOVEFILTERS(Region[Region]) ) ) )
+3. Sales % Group Percentage of total sales for the group, ignoring both Region and Country filters. With ISINSCOPE() for hierarchical accuracy:
+Sales % Group = IF( ISINSCOPE(Region[Region]) || ISINSCOPE(Region[Country]), DIVIDE( SUM(Sales[Sales]), CALCULATE( SUM(Sales[Sales]), REMOVEFILTERS(Region[Region], Region[Country]) ) ) )
+
+
+---
+**<p align="center">📊 Data Visualisation**
 
 A range of Power BI visualisations were developed to communicate the retail and sales story.
 
 <table> <thead> <tr> <th>Visualisation</th> <th>Purpose</th> </tr> </thead> <tbody> <tr> <td>📊 <strong>Bar Charts</strong></td> <td>Compare categories, sales and performance</td> </tr> <tr> <td>📈 <strong>Line Charts</strong></td> <td>Analyse sales and profit trends over time</td> </tr> <tr> <td>🧾 <strong>Card Visuals</strong></td> <td>Display key metrics such as total sales and profit</td> </tr> <tr> <td>🥧 <strong>Pie Charts</strong></td> <td>Show sales distribution by product category</td> </tr> <tr> <td>🗺️ <strong>Map Visuals</strong></td> <td>Explore geographical sales performance</td> </tr> </tbody> </table>
 
-🎛️ Interactive Reporting
+---
+**<p align="center">🎛️ Interactive Reporting**
 
 A key part of the project was creating reports that allowed users to interact with and explore the data.
 
-The dashboards included:
+**The dashboards included:**
 
 🎛️ Slicers for dynamic filtering
+
 🔎 Filters for targeted analysis
+
 🛍️ Category-level exploration
+
 📅 Time-period analysis
+
 🌍 Regional analysis
+
 🔍 Drill-down functionality
+
 📊 Interactive visualisations
 
 These features allow users to move beyond static reporting and investigate the data from different perspectives.
 
-💡 Key Insights
 
-The analysis explored several areas of retail and sales performance.
-
-🏆 Top-Performing Categories
-
-Identified product categories that contributed strongly to overall sales and performance.
-
-🌍 Regional Performance
-
-Compared sales across different regions to identify stronger and weaker performing areas.
-
-💰 Profitability
-
-Visualised profitability alongside sales growth to provide a broader view of business performance.
-
-📈 Trends Over Time
-
-Analysed sales and profit trends to identify periods of growth, decline and change.
-
-🚀 Opportunities for Improvement
-
-Highlighted areas of weaker performance that could provide opportunities for further investigation and improvement.
-
-📖 Data Storytelling
-
-One of the key focuses of this project was understanding how to use visualisation to tell a story with data.
-
-Rather than simply presenting charts, the dashboard was designed to help users:
-
-Explore
-   ↓
-Understand
-   ↓
-Compare
-   ↓
-Identify Trends
-   ↓
-Discover Insights
-   ↓
-Support Decisions
-
-The project demonstrated how effective visual design, appropriate chart selection and interactive functionality can make complex information easier to understand.
-
-📸 Dashboard Preview
-
-Add screenshots of your Power BI dashboards here.
-
-📊 Dashboard Overview
-![Power BI Dashboard Overview](Images/dashboard-overview.png)
-📈 Sales & Profit Analysis
-![Sales and Profit Analysis](Images/sales-profit-analysis.png)
-🌍 Regional Performance
-![Regional Performance](Images/regional-performance.png)
-🛍️ Product & Category Analysis
-![Product and Category Analysis](Images/product-category-analysis.png)
-🚀 Publishing & Sharing
+---
+**<p align="center">🚀 Publishing & Sharing**
 
 The reports were published to Power BI Service to explore online reporting and sharing functionality.
 
-This provided practical experience with:
-
-☁️ Publishing reports
-📊 Viewing reports online
-🤝 Sharing dashboards
-💬 Gathering feedback
-🔄 Improving report design
-📁 Building a professional data portfolio
+**This provided practical experience with:**
+☁️ Publishing reports | 📊 Viewing reports online | 🤝 Sharing dashboards | 💬 Gathering feedback | 🔄 Improving report design | 📁 Building a professional data portfolio
 
 Publishing the project also provided an opportunity to consider how dashboards can be shared with users and stakeholders in a real-world environment.
 
-🧰 Tools & Technologies
+---
+**<p align="center">🧰 Tools & Technologies**
 
 <p align="center">
 
@@ -200,19 +168,11 @@ Publishing the project also provided an opportunity to consider how dashboards c
 
 Through this project, I gained hands-on experience with:
 
-💻 Power BI Desktop |☁️ Power BI Service |
-🧹 Power Query
-🧮 DAX
-🗄️ Data modelling
-📊 Data visualisation
-🎛️ Interactive dashboard development
-📖 Data storytelling
-💡 Business-focused analysis
+💻 Power BI Desktop |☁️ Power BI Service | 🧹 Power Query | 🧮 DAX | 🗄️ Data modelling | 📊 Data visualisation | 🎛️ Interactive dashboard development | 📖 Data storytelling | 💡 Business-focused analysis
 
 The project strengthened my understanding of how technical data skills can be combined with effective visual communication to make data more accessible and impactful.
 
-
-
+---
 **<p align="center">🌱 What's Next?**
 
 As I continue developing my data analytics skills, I plan to:
